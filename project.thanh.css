@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    width: 1519x;
+    margin: 0px auto;
+    height: max-content;
+}
+
+#header {
+    background-color: black;
+    width: 1519px;
+    height: 100px;    
+}
+#logo {
+    max-width: 350px;
+    margin: 0px 600px 0px 600px;
+}
+
+#menu_top {
+    
+    width: 1519px;
+    height: 70px;
+    margin: 0px auto;
+    background: black;
+}
+
+#menu_top ul {
+     margin: 0px;
+     padding: 0px;
+}
+
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    color: rgb(223, 219, 222) ;
+    padding: 0px 130px 0px 130px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+
+}
+
+#menu_top ul li a:hover {
+    color: rgb(236, 47, 47);
+}
+#banner {
+    width: 1519px;
+    height: 800px;
+}
+
+#new-product {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background:white;
+    padding-left: 100px;
+    padding-top: 30px;
+    /* float: left */
+}   
+#products {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    /* float: left; */
+}
+
+
+#test {
+    background-color: blue;
+}
+
+#button {
+    padding-left: 700px;
+}
+
+
+.container-1 {
+    background: white;
+    width: 1519px; ;
+}
+
+.new-product{
+display: flex;
+justify-content: space-around;
+
+}
+
+.products {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.productslist {
+    
+    background:white;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 100px;
+}
+.container-1 {
+    background:white;
+}
+
+/* .product-img{
+    width:33%
+} */
+
+#button {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color:white ;
+}
+
+footer {
+   
+    background: rgb(43, 40, 40);
+    color: honeydew;
+    width: 1519px;
+    
+    
+}
+
+#logofooter {
+    max-width: 300px;
+    margin: 0px 600px 0px 600px;
+}
+
+#container-for-each-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#id{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
